@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <div className="flex items-center p-4">
       <MobileSidebar />
-      <div className="flex items-center space-x-4 justify-end">
+      <div className="flex w-full justify-end space-x-4 items-center">
         <UserButton afterSignOutUrl="/" />
       </div>
     </div>
